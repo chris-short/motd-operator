@@ -15,9 +15,8 @@ spec:
       serviceAccountName: motd-operator
       containers:
         - name: motd-operator
-          # Replace this with the built image name
-          image: "{{ REPLACE_IMAGE }}"
-          imagePullPolicy: "{{ pull_policy|default('Always') }}"
+          image: quay.io/chrisshort/motd-operator:v0.0.1
+          imagePullPolicy: Always
           env:
             - name: WATCH_NAMESPACE
               valueFrom:
