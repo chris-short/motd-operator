@@ -1,0 +1,5 @@
+---
+- version: v1
+  group: motd.example.com
+  kind: MOTD
+  role: /opt/ansible/roles/motd

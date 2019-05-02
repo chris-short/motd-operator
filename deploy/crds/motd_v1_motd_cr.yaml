@@ -1,0 +1,7 @@
+apiVersion: motd.example.com/v1
+kind: MOTD
+metadata:
+  name: example-motd
+spec:
+  # Add fields here
+  size: 3
