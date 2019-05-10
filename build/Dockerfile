@@ -1,4 +1,4 @@
-FROM quay.io/operator-framework/ansible-operator:v0.4.0
+FROM quay.io/chrisshort/operatortainer:v0.0.4
 
 RUN ansible-galaxy install chris-short.ansible_role_motd
 
