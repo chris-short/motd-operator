@@ -15,7 +15,7 @@ spec:
       serviceAccountName: motd-operator
       containers:
         - name: motd-operator
-          image: quay.io/chrisshort/motd-operator:v0.0.4
+          image: quay.io/chrisshort/motd-operator:v0.0.5
           imagePullPolicy: Always
           env:
             - name: WATCH_NAMESPACE
